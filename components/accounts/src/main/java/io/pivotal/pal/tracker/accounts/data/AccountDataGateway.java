@@ -28,7 +28,6 @@ public class AccountDataGateway {
             PreparedStatement ps = connection.prepareStatement(
                 "insert into accounts (owner_id, name) values (?, ?)", RETURN_GENERATED_KEYS
             );
-
             ps.setLong(1, ownerId);
             ps.setString(2, name);
             return ps;
