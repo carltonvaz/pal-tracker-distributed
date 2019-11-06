@@ -1,0 +1,16 @@
+{
+  "git": {
+    "commit": {
+      "time": "2019-04-26T15:15:37Z",
+      "id": "fd850cb"
+    },
+    "branch": "HEAD"
+  },
+  "build": {
+    "version": "2.0.8-build.5",
+    "artifact": "spring-cloud-service-broker",
+    "name": "service-broker",
+    "group": "io.pivotal.spring.cloud",
+    "time": "2019-05-03T15:52:33.869Z"
+  }
+}
