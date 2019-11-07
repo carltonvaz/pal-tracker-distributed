@@ -37,6 +37,7 @@ public class ApplicationServer {
 
 
         start(envMapBuilder()
+                .put("APPLICATION_OAUTH_ENABLED", "false")
                 .put("SPRING_DATASOURCE_URL", dbUrl)
                          .put("EUREKA_CLIENT_ENABLED", "false")
                          .put("RIBBON_EUREKA_ENABLED", "false")
